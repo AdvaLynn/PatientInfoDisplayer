@@ -1,0 +1,15 @@
+<html>
+<body>
+<p>
+  Name of patient: <%=@name%></br>
+  Organization name: <%=@organization%></br>
+  Gender: <%=@gender%></br>
+  Number of conditions they have: <%=@num_of_condtions%></br>
+  List of all conditions:</br>
+  <% @conditions.each do |condition| %>
+    <%= "- " + condition %> </br>
+  <% end %>
+</p>
+
+</body>
+</html>
