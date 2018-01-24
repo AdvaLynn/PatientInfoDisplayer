@@ -1,8 +1,8 @@
 # README
 
-This is a simple web application that parses a .json file and displays certain information.
+This is a simple web application that parses a .json file and displays patient information.
 
-Parses through json only using controller, at app/controllers/patient_info_controller.rb
+The patient_info_controller parses through the json file, at app/controllers/patient_info_controller.rb
 
 Displays info at app/views/patient_info/index.html.erb
 
