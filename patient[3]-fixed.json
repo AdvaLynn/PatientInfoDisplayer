@@ -1,15 +1,17 @@
 {
   "resourceType": "Patient",
   "id": "xcda",
-  "status": "generated",
-  "text": "<div>  \n      \n      <p>Henry Levin the 7th</p> \n    \n    </div>",
+  "text": {
+    "status": "generated",
+    "display": "<div>  \n      \n      <p>Henry Levin the 7th</p> \n    \n    </div>"
+  },
   "identifier": [
     {
       "use": "usual",
       "type": {
         "coding": [
           {
-            "system": "htt://hl7.org/fhir/v2/0203",
+            "system": "http://hl7.org/fhir/v2/0203",
             "code": "MR"
           }
         ]
